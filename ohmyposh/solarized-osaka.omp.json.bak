@@ -1,0 +1,123 @@
+{ 
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "console_title": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "vertical_offset": -1,
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "diamond",
+          "invert_powerline": false,
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "foreground": "white",
+          "background": "lightRed",
+          "properties": {
+            "threshold": 1000,
+            "style": "houston",
+            "prefix": " <white>祥</>"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "diamond",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "white",
+          "background": "cyan",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "always_enabled": false,
+            "color_background": true,
+            "display_exit_code": true,
+            "always_numeric": true,
+            "error_color": "red",
+            "prefix": "\u003ctransparent\u003e\u003c/\u003e  "
+          }
+        }
+      ]
+    },
+    { "type": "newline" },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "os",
+          "style": "diamond",
+          "foreground": "black",
+          "background": "white",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "prefix": "",
+            "postfix": "",
+            "macos": "גּ "
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "yellow"
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "invert_powerline": false,
+          "foreground": "white",
+          "background": "cyan",
+          // "leading_diamond": "",
+          "trailing_diamond": "",
+          "properties": {
+            "exclude_folders": ["/Users/bargren/Projects.*"]
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "black",
+          "background": "blue",
+          "properties": {
+            "prefix": "  ",
+            "home_icon": "",
+            "style": "full",
+            "mapped_locations": [["/Users/bargren/Projects", "P"]]
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "black",
+          "background": "green",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": false,
+            "local_changes_color": "yellow",
+            "status_colors_enabled": true,
+            "ahead_and_behind_color": "red",
+            "behind_color": "lightRed",
+            "ahead_color": "lightMagenta"
+          }
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        }
+      ]
+    }
+  ]
+}
