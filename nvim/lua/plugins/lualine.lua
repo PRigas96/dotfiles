@@ -16,10 +16,10 @@ return {
             options = {
                 icons_enabled = true,
                 theme = 'auto',
-                -- component_separators = { left = '', right = '' },
-                component_separators = { left = '', right = '' },
-                -- section_separators = { left = '', right = '' },
-                section_separators = { left = '', right = '' },
+                -- component_separators = { left = '', right = '' }, -- for solarized osaka
+                component_separators = { left = '', right = '' }, -- for catppuccino
+                -- section_separators = { left = '', right = '' }, -- for solarized osaka
+                section_separators = { left = '', right = '' }, -- for catppuccino
                 disabled_filetypes = {
                     statusline = {"NvimTree", "packer", "avante"},
                     winbar = {},
@@ -60,8 +60,8 @@ return {
                         cond = function()
                             return os.getenv("CONDA_DEFAULT_ENV") ~= nil
                         end,
-                        -- color = { fg = '#C94C16' }, for solarized osaka
-                        color = { fg = '#F5C2E7' },
+                        color = { fg = '#C94C16' }, -- for solarized osaka
+                        -- color = { fg = '#F5C2E7' }, -- for catppuccino
                     },
                     {
                         function()
@@ -75,9 +75,9 @@ return {
                         cond = function()
                             return true
                         end,
-                        -- color = { fg = '#C94C16' }, - for solarized osaka
+                        color = { fg = '#C94C16' }, -- for solarized osaka
                         -- color = { fg = '#CBA6F7' },
-                        color = { fg = '#F5C2E7' },
+                        -- color = { fg = '#F5C2E7' }, -- for catppuccino
 -- #
                     },
                     {

@@ -82,8 +82,8 @@ return {
                                 black = { enabled = true },
                                 autopep8 = { enabled = false },
                                 isort = { enabled = false },
-                                pylint = { enabled = true },
-                                ruff = { enabled = false },
+                                -- pylint = { enabled = true },
+                                ruff = { enabled = true},
                                 pyflakes = { enabled = false },
                                 pycodeStyle = { enabled = false },
                                 pyright_mypy = {

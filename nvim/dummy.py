@@ -8,6 +8,8 @@ class net(torch.nn.Module):
 
     def forward(self, x):
         return x
+
+
 def dummy():
     print(torch.__version__)
     print(torch.cuda.is_available())
@@ -15,12 +17,13 @@ def dummy():
 
     print(torch.cuda.get_device_name(0))
 
+
 dummy()
+
 
 def plot2d():
     import matplotlib.pyplot as plt
-    x = torch.randn((100,2))
-    plt.scatter(x[:,0], x[:,1], c='r', marker='x')
+
+    x = torch.randn((100, 2))
+    plt.scatter(x[:, 0], x[:, 1], c="r", marker="x")
     plt.show()
-
-

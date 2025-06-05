@@ -48,3 +48,4 @@ vim.g.AirLatexUsername = 'prigas96@gmail.com'
 vim.g.AirLatexCookie="GCLB=CIudyYS-xuGPaBAD; oa=1; _gcl_au=1.1.1031255858.1734424985; _ga=GA1.1.1339230595.1721978937; _ga_RV4YBCCCWJ=GS1.1.1734545863.5.0.1734545867.0.0.0; overleaf_session2=s%3Ad8kZXFiEISqCuj4sab39rYoKICk5EKMX.2lA3arVv2OvxFwJ1Ma%2B55gDspUbQZ%2BzFXDrqg7w6xds"
 -- GCLB=CIudyYS-xuGPaBAD; oa=1; _gcl_au=1.1.1031255858.1734424985; _ga=GA1.1.1339230595.1721978937; _ga_RV4YBCCCWJ=GS1.1.1734545863.5.0.1734545867.0.0.0; __stripe_mid=f167e648-7a91-4e4c-b50c-88d165e1d80a933b06; overleaf_session2=s%3Ad8kZXFiEISqCuj4sab39rYoKICk5EKMX.2lA3arVv2OvxFwJ1Ma%2B55gDspUbQZ%2BzFXDrqg7w6xds
 vim.cmd('UpdateRemotePlugins')
+
